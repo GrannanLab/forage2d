@@ -1,10 +1,14 @@
 # forage2d
 Human 2-dimensional foraging task
 
-Basic python script using PsychoPy for 2D foraging task
+<h3>/task</h3>
+<p>Code for creating task environment and running task script.
 
-Environment specified in environment.yml.  Generate conda enviroment with following: \
+<p>Environment specified in environment.yml.  Generate conda enviroment with following: <br>
 $ conda env create -n psychopy -f environment.yml
 
-Implementation of task: \
+<p>Implementation of task: <br>
 $ python ./forage2d.py
+
+<h3>/code</h3>
+<p>Code for data processing and analysis
