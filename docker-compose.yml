@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  oneshot:
+  forage2d:
     image: forage2d
     build:
       context: .
@@ -12,7 +12,3 @@ services:
       - /home/$USER/Repos:/Repos
     stdin_open: true
     tty: true
-    deploy:
-      resources:
-        limits:
-          cpus: '0.2'
