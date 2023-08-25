@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  forage2d:
+    image: forage2d
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/src
+      - /mnt/data1:/data
+      - /home/$USER/Repos:/Repos
+    stdin_open: true
+    tty: true
